@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/
+weights/
+runs/
+results/
+outputs/
+*.pt
+*.pth
+*.cache

@@ -1,0 +1,13 @@
+# Tested with Python 3.10 and CUDA 12.8. Install PyTorch for your CUDA version first:
+#   pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.4.91
+torchmetrics==1.9.0
+pycocotools==2.0.11
+numpy==2.2.6
+tqdm
+# The transmission operator is bit-exact only with these image libraries:
+# Pillow 12.2.0 ships libjpeg-turbo, libwebp 1.6.0, OpenJPEG 2.5.4 and libavif 1.4.1.
+pillow==12.2.0
+opencv-python==5.0.0.93

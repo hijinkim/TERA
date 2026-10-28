@@ -1,0 +1,10 @@
+{
+  "protocol_name": "AquaTX",
+  "canvas_size": 640,
+  "letterbox_fill": [114, 114, 114],
+  "transmission_long_sides": [256, 384, 512],
+  "codec_only_long_side": 640,
+  "target_transmission_bpp": [0.3, 0.6, 1.0],
+  "seen_codecs": ["jpeg", "webp", "jpeg2000"],
+  "unseen_codecs": ["avif"]
+}
