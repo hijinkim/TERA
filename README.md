@@ -41,7 +41,11 @@ The transmission operator is deterministic. With the pinned Pillow and OpenCV ve
 
 ### AquaTX test assets (for evaluation)
 
-Download `AquaTX_DUO-TX_test.zip` and `AquaTX_RUOD-TX_test.zip` from **[Google Drive](https://drive.google.com/drive/folders/1oO5lnx8-A1BMnlRCYSDdhSFXYfT956Bp)** and extract both into `data/`:
+The frozen test assets (`AquaTX_DUO-TX_test.zip` and `AquaTX_RUOD-TX_test.zip`) are available on request. Please email **hijin1998@skku.edu** with your name, affiliation and intended use. Because AquaTX is derived from DUO and RUOD, the assets are provided for research use under the terms of the original datasets.
+
+You can also render the same test conditions yourself from the original DUO and RUOD test images. With the pinned library versions, the result is identical bit for bit to the frozen assets (see [Evaluation](#evaluation), `--online`).
+
+Extract both archives into `data/`:
 
 ```
 data/AquaTX/
